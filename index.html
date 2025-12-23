@@ -4,12 +4,18 @@
 <body>
 <body style="background-color:#0071CE;">
 <p style="color:#FFC220;font-family: Comic Sans MS;font-size:500%;text-align:center">TY LOVES WALMART</p>
-<button style="background-color: transparent; border: none;color: #FFC220;cursor: pointer;outline: none; disokay:block; margin: auto;" class="invisible-button" onclick="alert('WALAWLALWALWALWALWALWALWALMERTTTRTRTRT');">WHO DOES TY LOVE?         
-</button>
-<img src="./walamrt.png" alt="WAAAAAAAALAAAAAAAMAAAAAARTTATATATATA" style="width:1425px;height:500px;">
-<audio controls autoplay>
+<audio id="wallymart">
   <source src="wallymart.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+  Your browser does not support the audio element.</audio>
+<button style="background-color: transparent; border: none;color: #FFC220;cursor: pointer;outline: none; disokay:block; margin: auto;" class="invisible-button" onclick="alert('WALAWLALWALWALWALWALWALWALMERTTTRTRTRT'); playAudio()">WHO DOES TY LOVE?         
+</button>
+<script>
+var x = document.getElementById("wallymart"); 
+
+function playAudio() { 
+  x.play();  
+} 
+</script>
+<img src="./walamrt.png" alt="WAAAAAAAALAAAAAAAMAAAAAARTTATATATATA" style="width:1425px;height:500px;">
 </body
 </html>
